@@ -1,0 +1,32 @@
+\chapter{Demo Table}
+You can look at https://www.sharelatex.com/learn/Tables for learn or shown at \ref{table:listofvarious} 
+
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\renewcommand{\arraystretch}{1.3}
+\setlength{\arrayrulewidth}{1.0pt}
+\setlength{\tabcolsep}{3pt}
+
+\begin{table}[h]
+\caption{List of various distributions of \LaTeX{}}
+    \begin{center}
+        %\begin{tabular}{@{} *{1}{|P{1cm}|p{4cm}|p{9cm}|} @{}}
+        \begin{tabular}{|c | c | c |}
+              \hline
+              \textbf{No.} & \textbf{Software} & \textbf{Operation System Support} \\
+              \hline
+              1 & MiK\TeX{} & Windows, Linux, Mac OS \\
+              \hline
+              2 & proTeXt & Windows \\
+              \hline
+              3 & \TeX{} Live & Windows, UNIX \\
+              \hline
+              4 & Mac\TeX{} & Mac OS \\
+              \hline
+              5 & TeXShop & Mac OS \\
+              \hline
+        \end{tabular}
+        \label{table:listofvarious}
+    \end{center}
+\end{table}
+

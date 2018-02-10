@@ -1,0 +1,27 @@
+\def\ps@pageontop{
+   \def\@oddhead{\rmfamily\hfil\thepage}
+   \let\@evenhead\@oddhead
+   \def\@oddfoot{}
+   }
+ 
+\def\ps@pageonbottom{
+   \def\@oddhead{}
+   \def\@evenhead{}
+   }
+ 
+\def\ps@continued{
+   \def\@oddhead{\headmark}
+   \let\@evenhead\@oddhead
+   }
+   
+\def\ps@appendixcontinued{
+   \def\@oddhead{\headmark}
+   \let\@evenhead\@oddhead
+   \def\@oddfoot{}
+   \let\@evenfoot\oddfoot}
+
+\def\ps@bibliographycontinued{
+   \def\@oddhead{\headmark\rmfamily\hfil\thepage}
+   \let\@evenhead\@oddhead
+   \def\@oddfoot{}
+   \let\@evenfoot\oddfoot}   
