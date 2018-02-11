@@ -689,6 +689,7 @@
     \titlespacing*{\subsection}{0}{20pt}{0}
     
     \setcounter{chapter}{0}
+    \numberwithin{figure}{section}
     \renewcommand \thesection {Appendix \MakeUppercase{\@alph\c@section}}
     \dottedcontents{section}[4.2cm]{}{5.9em}{0pc}
     
@@ -730,7 +731,7 @@
     \lhead{\fontsize{10pt}{12} \selectfont Fac. of Grad. Studies, Mahidol Univ.}
     \pagenumbering{roman}
     \setcounter{page}{4}
-    \fontsize{10.5pt}{15pt}\selectfont
+    \fontsize{12.0pt}{15pt}\selectfont
     \null
     \thispagestyle{fancy}
     \begin{center}
@@ -761,7 +762,7 @@
     \lhead{\fontsize{10pt}{12} \selectfont Fac. of Grad. Studies, Mahidol Univ.}
     \pagenumbering{roman}
     \setcounter{page}{5}
-    \fontsize{10.5pt}{15pt}\selectfont
+    \fontsize{12.0pt}{15pt}\selectfont
     \null
     \thispagestyle{fancy}
     \begin{center}
